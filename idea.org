@@ -1,0 +1,55 @@
+* Ideas
+** Modes
+*** Interactive/Shell Mode
+
+The following mockup would be the interactive mode:
+
+
+ /***************\    Race: Unknown
+ *               *    Name: Not given
+ *      xx       *    Status: Not hatched
+ *     x  x      *
+ *    x    x     *
+ *    x    x     *
+ *    x    x     *
+ *     xxxx      *
+ *               *
+ \***************/
+
+Command (? for help)
+> _
+
+*** Script Mode
+*** Notification-Daemon-Mode (Can be built with script mode for the near future)
+** Creatures
+There are different creatures, each with own characteristics. Those are not hard coded but random based on a factor, a race can be very sleepy, but an offspring might not be at all.
+*** Characteristics
+- Needy
+- Hungry
+- Sleepy
+*** Portrait
+The portrait for a race is 6 rows with 13 columns each.
+*** Races
+**** Purrer
+Cats without trademark issues.
+
+    ._           _.
+    | \ .-----. / |
+    \_ V O   O v _/
+      \|   ^   |/
+       \ -___- /
+        \_____/
+
+**** Roller
+Is this a rolling stone or a living creature?
+**** Perfect
+Well, it has to be, its so fluffly and it has cute eyes!
+** Needs
+All needs together are a 100%, so if a creature needs no sleep, food or care it needs fun all the time ... or sleep all the time, perfect for cheaters!
+*** Sleep
+*** Fun
+*** Food
+*** Love
+** Mechanics
+*** Hatching
+It needs a lot of love, a high cpu load and you looking at it.
