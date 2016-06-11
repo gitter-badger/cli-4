@@ -1,12 +1,8 @@
 import algorithm, sequtils
 import random, random.mersenne, random.urandom
+import needs.catering
 
 type
-  Catering * = ref object of RootObj
-    healthyFood: float
-    junkFood: float
-    water: float
-    soda: float
   Hygiene * = ref object of RootObj
     shower: float
     toilet: float
